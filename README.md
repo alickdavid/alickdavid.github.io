@@ -1,2 +1,2 @@
 # alickdavid.github.io
-# alickdavid.github.io/thanks.html
+# alickdavid.github.io/thanks
