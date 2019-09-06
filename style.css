@@ -101,3 +101,6 @@ input[type=submit] {
     width: 40%;
     cursor: pointer;
 }
+::placeholder {
+    color: green;
+}
