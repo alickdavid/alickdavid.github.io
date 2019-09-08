@@ -98,7 +98,7 @@
     <div class="container">
     <h3>Contact me</h3>
             <label for="Name">Name</label>
-            <input type="text" name="Name" pattern="[a-zA-Z]{4,}" title="Please enter at least 4 characters" required placeholder="Name" />
+            <input type="text" name="Name" pattern="[a-z A-Z]{4,}" title="Please enter at least 4 characters" required placeholder="Name" />
             <br />
             <label for="E-mail">Email</label>
             <input type="Email" name="Email" pattern="[a-zA-Z0-9]{3,}@[a-z]{3,}[.]{1}[a-z]{2,}" title="Please enter a valid email" required placeholder="email@example.com" />
@@ -107,7 +107,7 @@
             <input type="text" name="title" required placeholder="Message title"/>
             <br />
             <label for message>Message</label>
-            <input type="text" name="message" pattern="[a-zA-Z0-9]{20,}" title="Enter at least 20 characters" required placeholder="Please enter your message here" />
+            <input type="text" name="message" pattern="[a-z A-Z 0-9 '.,]{20,}" title="Enter at least 20 characters" required placeholder="Please enter your message here" />
             <br />
             <input type="submit" name="submit" value="Send Message" />
     </div>
