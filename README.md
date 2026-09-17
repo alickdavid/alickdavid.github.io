@@ -1,2 +1,0 @@
-# alickdavid.github.io
-
